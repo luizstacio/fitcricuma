@@ -1,0 +1,70 @@
+body {
+    background: #888888;
+}
+
+textarea:focus, input:focus, button:focus{
+    outline: 0;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.lampada.ativo {
+    transition: all 0.05s linear;
+    background: rgb(251,251,0);
+    /*box-shadow: 1px 1px 0px rgba(200,200,0, 1),*/
+                /*2px 2px 0px rgba(200,200,0, 1),*/
+                /*3px 3px 0px rgba(200,200,0, 1),*/
+                /*4px 4px 0px rgba(200,200,0, 1),*/
+                /*5px 5px 0px rgba(200,200,0, 1);*/
+}
+
+.lampada.ativo:before {
+    content: "ON";
+}
+
+.lampada:before {
+    content: "OFF";
+}
+
+.lampada {
+    font-size: 70px;
+    text-shadow: -1px -1px 1px rgb(32, 32,32);
+    cursor: pointer;
+    height: 250px;
+    width: 250px;
+    border-radius: 500px;
+    background: rgba(76,76,76, 1);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border: none;
+/*    box-shadow: 1px 1px 0px rgba(76,76,76, 1),
+                2px 2px 0px rgba(75,75,75, 1),
+                3px 3px 0px rgba(73,73,73, 1),
+                4px 4px 0px rgba(73,73,73, 1),
+                5px 5px 0px rgba(72,72,72, 1),
+                6px 6px 0px rgba(71,71,71, 1),
+                7px 7px 0px rgba(70,70,70, 1),
+                8px 8px 0px rgba(69,69,69, 1),
+                10px 10px 0px rgba(68,68,68, 1),
+                11px 11px 0px rgba(67,67,67, 1),
+                12px 12px 0px rgba(66,66,66, 1),
+                13px 13px 0px rgba(65,65,65, 1),
+                14px 14px 0px rgba(64,64,64, 1),
+                15px 15px 0px rgba(63,63,63, 1);*/
+}
+
+.lampada::selection {
+    background: rgba(0,0,0,0);
+};
+
+::selection {
+    background: rgba(0,0,0,0);
+};
