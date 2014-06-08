@@ -24,11 +24,10 @@ Após isso feche sua IDE e rode os exemplos abaixo.
 npm install
 
 node index.js
-```
 
-``` cd johnny-five
+``` 
+cd johnny-five
 
 npm install
 
 node app.js
-```
