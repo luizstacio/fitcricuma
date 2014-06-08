@@ -19,11 +19,15 @@ node app.js
 
 Após isso feche sua IDE e rode os exemplos abaixo.
 
+#####Exemplo socket.io
+
 ``` 
 cd demolamp
 npm install
 node index.js
  ```
+
+#####Exemplo strobe
 
 ``` 
 cd johnny-five
