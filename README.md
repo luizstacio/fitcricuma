@@ -27,7 +27,6 @@ node index.js
 
 ``` 
 cd johnny-five
-
 npm install
-
 node app.js
+ ```
