@@ -19,11 +19,11 @@ node app.js
 
 Após isso feche sua IDE e rode os exemplos abaixo.
 
-``` cd demolamp
-
+``` 
+cd demolamp
 npm install
-
 node index.js
+ ```
 
 ``` 
 cd johnny-five
