@@ -5,12 +5,12 @@ Exemplos apresentados durante palestra no Fórum de tecnologia de Criciúma.
 
 Inicializando
 ==========
-##Nodejs
+####Nodejs
 
 cd node-helloword
 node app.js
 
-##Arduino + Nodejs
+####Arduino + Nodejs
 
 - Download [Arduino IDE](http://arduino.cc/en/main/software)
 - conecte seu arduino pela porta usb.
